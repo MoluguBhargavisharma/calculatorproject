@@ -16,4 +16,17 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+    public class Addition {
+
+	public static void main(String[] args) {
+		int a=10;
+		int b=20;
+		int e;
+		e=a+b;
+		System.out.println("c value is"+e) ;
+
+	}
+
+}
+
   displayName: 'Run a multi-line script'
